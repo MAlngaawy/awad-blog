@@ -1711,6 +1711,15 @@
     "@strapi/utils" "4.0.0"
     sendmail "^1.6.1"
 
+"@strapi/provider-upload-cloudinary@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.0.0.tgz#6fe0bb27bce9e36620e0d2a411d7342ac3e1f003"
+  integrity sha512-kMDZrTxkz+AiC62UVjP0nK4Cgs9HtjY5uWAlPlzMQg+WIAadogk5S9MzrfVeY4b8yUZ2TyH9/5iHmMo9iVva8g==
+  dependencies:
+    "@strapi/utils" "4.0.0"
+    cloudinary "^1.25.1"
+    into-stream "^5.1.0"
+
 "@strapi/provider-upload-local@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@strapi/provider-upload-local/-/provider-upload-local-4.0.0.tgz#20c3281baddcaee7354f94e2e0b52b512c2cc419"
@@ -9411,14 +9420,6 @@ std-env@^2.2.1:
   integrity sha512-eOsoKTWnr6C8aWrqJJ2KAReXoa7Vn5Ywyw6uCXgA/xDhxPoaIsBa5aNJmISY04dLwXPBnDHW4diGM7Sn5K4R/g==
   dependencies:
     ci-info "^3.1.1"
-
-strapi-provider-upload-cloudinary@^3.6.8:
-  version "3.6.8"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.6.8.tgz#b3e8d2013c11e200f1565d491f7d3b37a64a2003"
-  integrity sha512-81aODHhMx3fBPRHXrF7vk1ppjSXby+L5GbojI4lTdjHqOmfJtHXC6V3R6CGzUz/b7Qe+Txs2W5PsySUkmjm3FQ==
-  dependencies:
-    cloudinary "^1.25.1"
-    into-stream "^5.1.0"
 
 stream-browserify@^3.0.0:
   version "3.0.0"
