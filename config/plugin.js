@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
     },
     actionOptions: {
       upload: {},
-      delete: {},
-    },
+      delete: {}
+    }
   },
 });
