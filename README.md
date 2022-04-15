@@ -1,3 +1,3 @@
-# Strapi application
+## IN PROGRESS.........
 
-A quick description of your strapi application
+### Strapi Project for Awad web website
